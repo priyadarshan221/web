@@ -1,0 +1,21 @@
+html{
+    font-size:20px;
+}
+#outer-div1{
+    height:200px;
+    width:200px;
+    background-color:blue;
+    margin:10px 15px 20px 30px;
+    
+}
+#inner-div1{
+    height: 50%;
+    width:50%;
+    background-color:red;
+}
+#outer-div2{
+    height:200px;
+    width:200px;
+    background-color: darkgoldenrod;
+    margin-top:20px;
+}

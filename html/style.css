@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    }
+    /*BODY HEADER*/
+    #body-header{
+        height:65vh;
+        opacity:0.8;
+        background-image:url(image\mac.jpg);
+        background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+
+    }
+    /*Horizontal lists*/
+    .horizontal-list{
+        list-style:none;
+        padding left:0px;
+    }
+    .horizontal-list li{
+        display:inline-block;
+        margin:0px 8px 8px 0px;
+
+    }
+    .text-center{
+        text-align:center;
+    }

@@ -1,0 +1,50 @@
+h1{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-style:double;
+    border-radius: 45px;
+    
+   
+   
+}
+p{
+    color:rgb(1, 33, 65);
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right:150px;
+ padding:30px;
+}
+#blog-title:hover{
+    color:red;
+}
+#div1{
+    height:auto;
+    width:auto;
+    background-color:rgb(241, 127, 119);
+    border-width:4px;
+    border-style:solid;
+    border-color: black;
+}
+#div2{
+    background-color: cyan;
+  
+}
+#sample-para{
+    font-size:30px;
+    color:black;
+    font-weight:400;
+    text-align: justify;
+line-height: 40px;
+text-transform: lowercase;
+text-decoration: wavy;
+}
+#logo-img-container{
+    height:150vh;
+    width:100vw;
+    padding:30px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:url(../image/mezoo.jpeg);
+
+}
