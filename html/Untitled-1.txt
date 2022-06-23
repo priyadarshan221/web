@@ -1,0 +1,26 @@
+#include<iostream>
+#include<iterator>
+#include<map>
+using namespace std;
+int main()
+{
+    map<int,int>darshan;
+    darshan.insert(pair<int,int>(1,20));
+    darshan.insert(pair<int,int>(4,56));
+    darshan.insert(pair<int,int>(5,67));
+    darshan.insert(pair<int,int>(2,85));
+    darshan.insert(pair<int,int>(3,45));
+    darshan[8]=90;
+    map<int,int>::iterator itr;
+    for(itr=darshan.begin();itr!=darshan.end();itr++)
+    {
+        cout<<itr->first<<" "<<itr->second<<endl;
+    }
+    cout<<endl;
+    map<int,int>quiz(darshan.begin(),darshan.end());
+    for(itr=quiz.begin();itr!=quiz.end();itr++)
+    {
+        cout<<itr->first<<" "<<itr->second<<endl;
+    }
+
+}
